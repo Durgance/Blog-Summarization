@@ -65,7 +65,7 @@ def main():
         res = summarizer(chunks,max_length=150,min_lenght=30,do_sample=False)
         
         for i in res:
-            st.write(i["summary_text"][0].upper()+i["summray_text"][1:])
+            st.write(i["summary_text"])
             #print("\n")
         #st.write(res)
 
