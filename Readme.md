@@ -1,5 +1,5 @@
 # Natural Language Processing using Transformer
-
+!["https://miro.medium.com/max/1000/0*C7rxXyLdAc6H5TLf"](https://miro.medium.com/max/1000/0*C7rxXyLdAc6H5TLf)
 ## Word 2 Vector
 
 ### Word to vector relates different words encoded and relates the different words to give better meaning of the all over words between them.
@@ -40,18 +40,4 @@
   
 ## So we get a resulting architecture which is  a transformer.
 <br>
-
-# Transformer Heads
-## BERT :
-- ### modifyt the behaviour adding heads on top of model.
-- ### MLM (Mask language modeling)
-    - #### The _**MASK**_ of france is paris.
-    - #### BERT will guess the values of **_MASK_**
-    - #### Gives out label
-- ### Q and A
-    - #### pass in a question and we also pass in a context.
-    - #### take a look at context, then locates where the answer is located.(Word entity recognition)
-    - #### **_[CLS]_** Question (Sentence) **_[SEP]_** Context 
-    - #### Here the **_[ClS]_** gives the identification of the start of the first sentence and **_[SEP]_** gives the inforamation that the second sentence has started.
-- ### Classification
 
