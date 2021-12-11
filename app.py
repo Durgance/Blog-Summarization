@@ -15,7 +15,7 @@ def main():
 
     st.title("Article Summarization")
     st.subheader("""
-                As these days, we keep getting bussy and bussy,
+                As these days, we keep getting busy and busy,
                 and if we have to read any article, its better to get a gist of what is in the article before actually reading it.
                 So i creating a solution for the same.
                 You can paste any blog link and a summary will be provided.
